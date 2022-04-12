@@ -25,7 +25,7 @@ function App() {
       </nav>
       {/* <Topics /> */}
 
-      <Suspense fallback={<div>...loading your favorite lazy component</div>}>
+      <Suspense fallback={<Topics />}>
         <LazyComponent />
         <Settings />
       </Suspense>
